@@ -1,0 +1,141 @@
+@charset "utf-8";
+ * {
+		margin:0px;
+		padding:0px;
+		font-size:14px;
+		font-family: Georgia, 'Times New Roman', Times, serif  
+	  }
+	  
+	  body {
+		  background-image:url(Photos/background.png);
+		  background-repeat:no-repeat;
+		  background-size:cover;
+		  background-attachment:fixed;
+	  }
+	  
+	  #wrapper {
+	    width:950px;
+		height:780px;
+		margin:auto;
+	  }
+	  
+	  #wrapper #header {
+		height: 15px;
+		width: auto;
+	  }
+	  
+	  #wrapper #menu {
+		min-height:50px;
+		background-color:#043f28;  
+	  }
+	  
+	  #wrapper #menu ul {
+		list-style-type:none;  
+	  }
+	  
+	  #wrapper #menu ul li {
+		float:left;
+		width:237px; 
+		text-align:center; 
+	  }
+	  
+	  #wrapper #menu ul li a {
+		font-size:24px;
+		text-decoration:none;
+		color:#e0d7d7;  
+		line-height:50px;
+	  }
+	  
+	  #wrapper #content {
+		min-height:600px;
+		overflow:hidden;
+		background-color:rgba(3, 27, 14, 0.7);  
+	  }
+	  
+	  #wrapper #content #content_left {
+		width:620px;
+		min-height:560px;
+		float:left; 
+		padding-top:20px;
+		padding-left:20px;
+		padding-right:10px;
+		padding-bottom:20px;
+	  }
+	  
+	  #wrapper #content #content_left h2 {
+		font-size:36px;
+		margin-bottom:25px;  
+	  }
+	  
+	  #wrapper #content #content_left p img {
+		width:300px;
+		height:auto;
+		float:left;
+		margin-right:10px;
+		margin-bottom:10px;  
+	  }
+	  
+	  #wrapper #content #content_left p {
+		  text-align:justify;
+		  margin-bottom:20px;
+	  }
+	  
+	  #wrapper #content #content_right {
+		width:270px;
+		min-height:560px;
+		float:right;  
+		padding-top:20px;
+	    padding-bottom:20px;
+		padding-left:10px;
+		padding-right:20px;
+	  }
+	  
+	  #wrapper #content #content_right h2 {
+		  font-size:36px;
+		  text-align:center;
+		  margin-bottom:25px;
+	  }
+	  
+	  #wrapper #content #content_right img {
+		width:100%;
+		height:auto;
+		margin-bottom:10px; 
+	  }
+	  
+	  #wrapper #content #content_right h3{
+		font-size:24px;
+		text-align:center;
+		margin-bottom:10px;
+	  }
+	  
+	  #wrapper #content #content_right h4 {
+		font-size:18px;
+		text-align:center; 
+		margin-bottom:20px; 
+	  }
+	  
+	  #wrapper #content #content_right p {
+	    text-align:center;
+		margin-bottom:20px;
+	  }
+	  
+	  #wrapper #content #content_right #socialmedia {
+		text-align:center;  
+	  }
+	  
+	  #wrapper #content #content_right #socialmedia img {
+		  width:60px;
+		  height:auto;
+		  border:none;
+	  }
+	  
+	  #wrapper #footer {
+		height:50px;
+		background-color:#4c4c55; 
+		font-size:18px;
+		color:#FFFFFF;
+		line-height:50px; 
+        text-align: center;
+        margin-bottom: 20px;
+	  }
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="formulir.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <!--Start Header-->
+            <div class="container">
+                <a href="index.html"><img src="Photos/logo.png"></a>
+                <ul id="menu">
+                    <li><a href="heroes.html">HEROES</a></li>
+                    <li><a href="mechanic.html">MECHANICS</a></li>
+                    <li><a href="merchand.html">MERCHANDISE</a></li>
+                    <li><a href="form.html">REGISTER</a></li>
+                </ul>
+            </div>
+            <!--End Header-->
+        </div>
+        <div id="content">
+            <!--Start Content-->
+            <div class="container2">
+                <h1>Register Here</h1>
+                <form name="form1" onSubmit="validate()" method="POST">
+                    <p>
+                        <label for="">Create Username</label>
+                        <input type="text" name="user_name" id="user_name" placeholder="Create New Username">
+                    </p>
+                    <p>
+                        <label for="">Full Name</label>
+                        <input type="text" name="full_name" id="full_name" placeholder="Full Name">
+                    </p>
+                    <p>
+                        <label for="">Email</label>
+                        <input type="email" name="user_email" id="user_email" placeholder="example@email.com">
+                    </p>
+                    <p>
+                        <label for="">Password</label>
+                        <input type="password" name="user_password" id="user_password" placeholder="New Password">
+                    </p>
+                    <p>
+                        <label for="">I have read and agree to terms and conditions</label>
+                        <input type="checkbox" name="check" id="check">
+                    </p>
+                    <p>
+                        <button onclick=" location.href='link.html' ">Register</button>
+                    </p>
+                </form>
+            </div>
+            <!--End Content-->
+        </div>
+    </div>    
+</body>
+</html>
